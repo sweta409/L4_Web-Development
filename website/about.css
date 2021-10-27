@@ -1,0 +1,92 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: century Gothic;
+}
+
+header{
+               background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(j.jpg);
+               height: 105vh;
+               background-size: cover;
+               background-position: center;
+}
+ul{
+      float: right;
+      list-style-type: none;
+      margin-top: 25px;
+}
+
+ul li{
+         display: inline-block;
+}
+
+ul li a{
+           text-decoration: none;
+           colour: #000;
+           padding: 5px 20px;
+           border: 1px solid transparent;
+           transition: 0.6s ease;
+}
+
+ul li a:hover{
+                       background-color: #fff;
+                       color: #000;
+}
+
+ul li a {
+                   background-color: #000;
+                   color:#fff;
+}
+
+.ul li active.a{
+              background-color: DodgerBlue;
+              color: DodgerBlue;
+}
+
+
+
+img{
+          width: 300px;
+           padding: 50px 50px;
+           border-radius: 50%;
+           float: none;
+}
+
+main{
+           max-width: 1200px;
+           margin: auto;
+}
+
+.title{
+position: absolute;
+top: 20%;
+left: 30%;
+}
+
+.title h1{
+         color: #fff;
+          font-size: 50px;
+
+}
+.title h2{
+         color: #fff;
+          font-size: 40px;
+}
+.title h3{
+         color: #fff;
+          font-size: 25px;
+}
+h1 {
+  color: black;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+h2 {
+  color: black;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+h3 {
+  color: black;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}          
+
+
